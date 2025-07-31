@@ -1,6 +1,5 @@
 plugins {
     `java-library`
-    id("org.springframework.boot") version "3.5.3"
     id("io.spring.dependency-management") version "1.1.7"
     id("maven-publish")
 }
@@ -25,11 +24,12 @@ repositories {
 }
 
 dependencies {
+    implementation(enforcedPlatform("org.springframework.boot:spring-boot-dependencies:3.5.3"))
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
-    compileOnly("org.projectlombok:lombok")
-    annotationProcessor("org.projectlombok:lombok")
+    compileOnly("org.projectlombok:lombok:1.18.38")
+    annotationProcessor("org.projectlombok:lombok:1.18.38")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -38,9 +38,7 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
-tasks.bootJar {
-    enabled = false
-}
+
 tasks.jar {
     enabled = true
 }
