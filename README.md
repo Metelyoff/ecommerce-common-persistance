@@ -1,2 +1,2 @@
 ### Build Status
-[![](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance/svg)](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance)
+[![Release](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance/svg)](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance)
