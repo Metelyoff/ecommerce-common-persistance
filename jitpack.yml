@@ -1,4 +1,4 @@
-# https://jitpack.io/#Metelyoff/persistence
+# https://jitpack.io/#Metelyoff/ecommerce-common-persistance
 jdk:
   - openjdk17
 before_install:
