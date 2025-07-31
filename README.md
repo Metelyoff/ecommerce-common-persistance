@@ -1,0 +1,1 @@
+[![](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance/svg)](https://jitci.com/gh/Metelyoff/ecommerce-common-persistance)
